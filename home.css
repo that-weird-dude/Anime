@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: papayawhip;
+}
+
+li,
+a,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+li,
+a,
+button:hover {
+  transform: translateY(-7%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 30px 10%;
+}
+
+p.logo {
+  cursor: pointer;
+  color: #0088a9;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+h2,
+a {
+  background: transparent;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: rgba(0, 136, 169, 1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 50px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.7);
+  transform: translateY(-7%);
+}
+
+.about {
+  padding: 20px 25px;
+  font-family: sans-serif;
+}
+
+p.about {
+  color: #333;
+  font-size: 20px;
+  padding-right: 75ch;
+  padding-left: 50px;
+}
+
+h1 {
+  color: #333;
+  background: none;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  color: rgba(0, 136, 169, 1);
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.box1 {
+  background-image: url(luffy.jpg);
+  flex: 1;
+  background-position: center;
+  background-size: 100%;
+  color: #333;
+  border-radius: 10px;
+  margin: 20px 15px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 150px;
+  transition: transform 0.6s;
+}
+
+.box2 {
+  background-image: url(spyxfamily.jpg);
+  flex: 1;
+  background-position: center;
+  background-size: 100%;
+  color: #333;
+  border-radius: 10px;
+  margin: 20px 15px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 150px;
+  transition: transform 0.6s;
+}
+
+.box3 {
+  background-image: url(mydressupdarling.jpg);
+  flex: 1;
+  background-position: center;
+  background-size: 100%;
+  color: #333;
+  border-radius: 10px;
+  margin: 20px 15px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 150px;
+  transition: transform 0.6s;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+  transform: translateY(-7%);
+}
